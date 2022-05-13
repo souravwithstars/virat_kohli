@@ -1,0 +1,42 @@
+.page-layout {
+    width: 560px;
+    margin: 10 auto;
+    font-family: sans-serif;
+    border: 1px solid rgb(80, 80, 80, 0.3);
+    border-radius: 10px;
+}
+.comment {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+figure {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img {
+    height: 100%;
+}
+.content {
+    width: 70%;
+    padding: 10px;
+}
+.content h2 {
+    margin-top: 0;
+}
+.content p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+footer {
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: rgb(80, 80, 80, 0.05);
+    font-weight: 100;
+    color: rgb(0, 0, 0, 0.6);
+}
